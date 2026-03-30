@@ -12,3 +12,4 @@ C:\Users\plesk\BruteForce\obj\Debug\net10.0\refint\BruteForce.dll
 C:\Users\plesk\BruteForce\obj\Debug\net10.0\BruteForce.pdb
 C:\Users\plesk\BruteForce\obj\Debug\net10.0\BruteForce.genruntimeconfig.cache
 C:\Users\plesk\BruteForce\obj\Debug\net10.0\ref\BruteForce.dll
+C:\Users\plesk\BruteForce\obj\Debug\net10.0\BruteForce.sourcelink.json

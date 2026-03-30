@@ -21,17 +21,19 @@ namespace BruteForce
             CreatePassword(8, CheckPassword);
         }
 
+        static int id = 0;
         public static void SignIn(string password) 
         {
             try 
             {
-                string url = "http://localhost/praktika14/ajax/login_user.php";
+                id++;
+                string url = "http://localhost/praktika14/ajax/regin_user.php";
 
                 HttpWebRequest request = (HttpWebRequest)WebRequest.Create(url);
                 request.Method = "POST";
                 request.ContentType = "application/x-www-form-urlencoded";
 
-                string postData = $"login=admin&password={password}";
+                string postData = $"login=admin{id}&password={password}";
                 byte[] data = Encoding.ASCII.GetBytes(postData);
                 request.ContentLength = data.Length;
 
