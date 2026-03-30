@@ -1,0 +1,14 @@
+C:\Users\plesk\BruteForce\bin\Debug\net10.0\BruteForce.exe
+C:\Users\plesk\BruteForce\bin\Debug\net10.0\BruteForce.deps.json
+C:\Users\plesk\BruteForce\bin\Debug\net10.0\BruteForce.runtimeconfig.json
+C:\Users\plesk\BruteForce\bin\Debug\net10.0\BruteForce.dll
+C:\Users\plesk\BruteForce\bin\Debug\net10.0\BruteForce.pdb
+C:\Users\plesk\BruteForce\obj\Debug\net10.0\BruteForce.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\plesk\BruteForce\obj\Debug\net10.0\BruteForce.AssemblyInfoInputs.cache
+C:\Users\plesk\BruteForce\obj\Debug\net10.0\BruteForce.AssemblyInfo.cs
+C:\Users\plesk\BruteForce\obj\Debug\net10.0\BruteForce.csproj.CoreCompileInputs.cache
+C:\Users\plesk\BruteForce\obj\Debug\net10.0\BruteForce.dll
+C:\Users\plesk\BruteForce\obj\Debug\net10.0\refint\BruteForce.dll
+C:\Users\plesk\BruteForce\obj\Debug\net10.0\BruteForce.pdb
+C:\Users\plesk\BruteForce\obj\Debug\net10.0\BruteForce.genruntimeconfig.cache
+C:\Users\plesk\BruteForce\obj\Debug\net10.0\ref\BruteForce.dll
