@@ -22,18 +22,20 @@ namespace BruteForce
         }
 
         static int id = 0;
+        static int idPost = 1;
         public static void SignIn(string password) 
         {
             try 
             {
                 id++;
-                string url = "http://localhost/praktika14/ajax/regin_user.php";
+                string url = "http://localhost/praktika14/ajax/message.php";
 
                 HttpWebRequest request = (HttpWebRequest)WebRequest.Create(url);
                 request.Method = "POST";
                 request.ContentType = "application/x-www-form-urlencoded";
+                request.Headers.Add("Cookie", "PHPSESSID=dk0k0118rlb1hlcaclqgirp8l7ph09ck"); //f12->application->cookies->PHPSESSID
 
-                string postData = $"login=admin{id}&password={password}";
+                string postData = $"IdPost={idPost}&Message=message";
                 byte[] data = Encoding.ASCII.GetBytes(postData);
                 request.ContentLength = data.Length;
 
